@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "login check",
+        "description": "",
+        "id": "amazon-application-order;login-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 170705803,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch browser",
+            "match": {
+              "location": "Step.launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 115169,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the username and password",
+            "match": {
+              "location": "Step.enter_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157178,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click login",
+            "match": {
+              "location": "Step.click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 82994,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Hompage check",
+            "match": {
+              "location": "Step.hompage_check()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon application order",
+    "description": "",
+    "id": "amazon-application-order",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
